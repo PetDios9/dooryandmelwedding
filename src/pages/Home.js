@@ -31,7 +31,9 @@ export default function Home() {
             <Typography variant="h2" align="left">
               Melissa Hernandez
               <br />
-              and Dorryen Lopez
+              &amp;
+              <br />
+              Dorryen Lopez
             </Typography>
           </Grid>
           <Grid item xs={12}>
