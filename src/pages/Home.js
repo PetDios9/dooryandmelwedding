@@ -2,6 +2,7 @@
 import { Grid, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
+import homePageStyles from '../styles/homePageStyles';
 import DnM1 from '../images/DnM1.jpg';
 import DnM2 from '../images/DnM2.jpg';
 
@@ -11,15 +12,12 @@ export default function Home() {
 
       <Box
         component="img"
-        sx={{
-          width: '100%',
-          height: '100%',
-        }}
+        sx={homePageStyles.imgContainer}
         alt="The bride and groom"
         src={DnM1}
       />
 
-      <Box sx={{ padding: '3rem 5rem 3rem 5rem', color: '#4a4a4b' }}>
+      <Box sx={homePageStyles.textContainer}>
         <Grid container spacing={4}>
           <Grid item xs={12}>
             <Typography>
@@ -69,16 +67,13 @@ export default function Home() {
       </Box>
       <Box
         component="img"
-        sx={{
-          width: '100%',
-          height: '100%',
-        }}
+        sx={homePageStyles.imgContainer}
         alt="The bride and groom"
         src={DnM2}
       />
       <Grid container spacing={4}>
         <Grid item xs={12}>
-          <Box sx={{ height: '10vh', padding: '40px 0px' }}>
+          <Box sx={homePageStyles.footer}>
             <Typography>
               Made with love by Peter Diosdado &#9829;
             </Typography>
