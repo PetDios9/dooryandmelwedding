@@ -8,12 +8,12 @@ import headerStyles from '../styles/headerStyles';
 
 export default function NavBar() {
   return (
-    <AppBar sx={headerStyles.header} elevation={0} color="primary">
+    <AppBar sx={headerStyles.header} elevation={0} color="primary" position="sticky">
       <Toolbar>
         <Grid container justifyContent="center">
           <Grid item xs={12}>
             <Typography variant="h2" sx={{ flexGrow: 1 }}>
-              {`d and m | we're getting married!`}
+              {`d & m | we're getting married!`}
             </Typography>
           </Grid>
           <Grid item>
