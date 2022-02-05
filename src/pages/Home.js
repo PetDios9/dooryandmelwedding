@@ -1,5 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable max-len */
-import { Grid, Typography } from '@mui/material';
+import { Grid, Link, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import homePageStyles from '../styles/homePageStyles';
@@ -9,14 +10,12 @@ import DnM2 from '../images/DnM2.jpg';
 export default function Home() {
   return (
     <div>
-
       <Box
         component="img"
         sx={homePageStyles.imgContainer}
         alt="The bride and groom"
         src={DnM1}
       />
-
       <Box sx={homePageStyles.textContainer}>
         <Grid container spacing={4}>
           <Grid item xs={12}>
@@ -70,15 +69,23 @@ export default function Home() {
       <Box
         component="img"
         sx={homePageStyles.imgContainer}
-        alt="The bride and groom"
+        alt="The bride and groom on a bridge overlooking a small river"
         src={DnM2}
       />
       <Grid container spacing={4}>
         <Grid item xs={12}>
           <Box sx={homePageStyles.footer}>
-            <Typography>
-              Made with love by Peter Diosdado &#9829;
-            </Typography>
+            <Link
+              sx={homePageStyles.footerText}
+              href="https://peterdiosdado.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              underline="none"
+            >
+              <Typography>
+                Made with love by Peter Diosdado &#9829;
+              </Typography>
+            </Link>
           </Box>
         </Grid>
       </Grid>
