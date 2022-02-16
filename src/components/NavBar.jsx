@@ -2,13 +2,14 @@
 /* eslint-disable quotes */
 /* eslint-disable react/jsx-curly-brace-presence */
 import {
-  AppBar, Grid, Toolbar, Typography, Link,
+  AppBar, Grid, Toolbar, Typography,
 } from '@mui/material';
-import headerStyles from '../styles/headerStyles';
+import { Link } from 'react-router-dom';
+import navbarStyles from '../styles/navbarStyles';
 
 export default function NavBar() {
   return (
-    <AppBar sx={headerStyles.header} elevation={0} color="primary" position="sticky">
+    <AppBar sx={navbarStyles.header} elevation={0} color="primary" position="sticky">
       <Toolbar>
         <Grid container justifyContent="center">
           <Grid item xs={12}>
@@ -17,29 +18,29 @@ export default function NavBar() {
             </Typography>
           </Grid>
           <Grid item>
-            <Link href="#" underline="hover" color="white">
-              <Typography variant="h6" sx={headerStyles.navTabs}>
+            <Link to="/" style={navbarStyles.links}>
+              <Typography variant="h6" sx={navbarStyles.navTabs}>
                 home
               </Typography>
             </Link>
           </Grid>
           <Grid item>
-            <Link href="#" underline="hover" color="white">
-              <Typography variant="h6" sx={headerStyles.navTabs}>
+            <Link to="schedule" style={navbarStyles.links}>
+              <Typography variant="h6" sx={navbarStyles.navTabs}>
                 schedule
               </Typography>
             </Link>
           </Grid>
           <Grid item>
-            <Link href="#" underline="hover" color="white">
-              <Typography variant="h6" sx={headerStyles.navTabs}>
+            <Link to="registry" style={navbarStyles.links}>
+              <Typography variant="h6" sx={navbarStyles.navTabs}>
                 registry
               </Typography>
             </Link>
           </Grid>
           <Grid item>
-            <Link href="#" underline="hover" color="white">
-              <Typography variant="h6" sx={headerStyles.navTabs}>
+            <Link to="photos" style={navbarStyles.links}>
+              <Typography variant="h6" sx={navbarStyles.navTabs}>
                 photos
               </Typography>
             </Link>
