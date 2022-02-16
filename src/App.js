@@ -9,7 +9,7 @@ import theme from './styles/theme';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import './App.css';
-import Schedule from './pages/Schedule';
+// import Schedule from './pages/Schedule';
 import Registry from './pages/Registry';
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
           <NavBar />
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route exact path="/schedule" element={<Schedule />} />
+            {/* <Route exact path="/schedule" element={<Schedule />} /> */}
             <Route exact path="/registry" element={<Registry />} />
             <Route path="*" element={<Home />} />
           </Routes>

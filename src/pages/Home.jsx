@@ -53,7 +53,7 @@ export default function Home() {
           <Grid item xs={12}>
             <Typography variant="h2" align="left">
               <br />
-              when we met!
+              how we met!
             </Typography>
           </Grid>
           <Grid item xs={12}>
