@@ -38,13 +38,6 @@ export default function NavBar() {
               </Typography>
             </Link>
           </Grid>
-          <Grid item>
-            <Link to="photos" style={navbarStyles.links}>
-              <Typography variant="h6" sx={navbarStyles.navTabs}>
-                photos
-              </Typography>
-            </Link>
-          </Grid>
         </Grid>
       </Toolbar>
     </AppBar>
