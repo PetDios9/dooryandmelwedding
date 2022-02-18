@@ -12,7 +12,7 @@ const homePageStyles = {
   },
   footer: {
     height: '10vh',
-    padding: '35px 0px',
+    padding: '3.5vh 0px',
   },
   footerText: {
     color: '#4a4a4b',
