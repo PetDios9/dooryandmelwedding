@@ -45,11 +45,11 @@ export default function Schedule() {
             </Grid>
             <Grid item xs={12}>
               <Typography textAlign="center" variant="h2">
-                Ceremony &amp; Reception
+                Location
               </Typography>
             </Grid>
             <Grid item xs={12}>
-              <Typography textAlign="center" variant="h4">
+              <Typography textAlign="center" variant="h5">
                 The River Mill
               </Typography>
             </Grid>
