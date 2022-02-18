@@ -20,7 +20,8 @@ export default function Home() {
         <Grid container spacing={4}>
           <Grid item xs={12}>
             <Typography>
-              Come join us for our special day together
+              Come join us for our special day
+              <hr />
             </Typography>
           </Grid>
           <Grid item xs={12}>

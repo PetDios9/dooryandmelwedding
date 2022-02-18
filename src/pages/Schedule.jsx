@@ -5,6 +5,7 @@ import { Box } from '@mui/system';
 import React from 'react';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EventIcon from '@mui/icons-material/Event';
+import CheckroomOutlinedIcon from '@mui/icons-material/CheckroomOutlined';
 import TheRiverMill from '../images/TheRiverMill.jpg';
 import schedulePageStyles from '../styles/schedulePageStyles';
 
@@ -74,11 +75,37 @@ export default function Schedule() {
             </Grid>
             <Grid item xs={12}>
               <EventIcon />
-              <br />
+            </Grid>
+            <Grid item xs={12}>
+              <Typography textAlign="center" variant="h2">
+                Date
+              </Typography>
+            </Grid>
+            <Grid item xs={12}>
               <Typography textAlign="center" variant="h5">
                 Friday, October 7th, 2022
                 <br />
                 5:00 pm - 11:00 pm
+              </Typography>
+            </Grid>
+            <Grid item xs={12}>
+              <CheckroomOutlinedIcon />
+            </Grid>
+            <Grid item xs={12}>
+              <Typography textAlign="center" variant="h2">
+                Dress Code
+              </Typography>
+            </Grid>
+            <Grid item xs={12}>
+              <Typography textAlign="center" variant="h5">
+                Formal attire
+              </Typography>
+            </Grid>
+            <Grid item xs={12}>
+              <Typography textAlign="center" variant="h5">
+                Ceremony will be outside, dinner and cocktail hour
+                will be inside. We recommend wearing grass friendly
+                foot wear and a jacket or coat for the evening.
               </Typography>
             </Grid>
           </Grid>
