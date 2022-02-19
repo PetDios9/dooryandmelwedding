@@ -27,7 +27,7 @@ export default function Schedule() {
         <Grid item>
           <Box
             component="img"
-            alt="The bride and groom"
+            alt="picture of the river mill fountain"
             sx={schedulePageStyles.imgContainer}
             src={TheRiverMill}
           />

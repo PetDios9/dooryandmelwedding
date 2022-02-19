@@ -43,7 +43,7 @@ export default function Home() {
           </Grid>
           <Grid item xs={12}>
             <Typography variant="h6" align="left">
-              Lodi, California
+              French Camp, California
             </Typography>
           </Grid>
           <Grid item xs={12}>
